@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Presto Daycare</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href="{{ url_for('static', filename='presto.css') }}" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <div class="logo-header">
+                
+            </div>
+            <div class="navbar navbar-default">
+                
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/"><img src="{{ url_for('static', filename='presto-logo.png') }}">Presto Daycare</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a class="btn-style" href="/">HOME</a></li>
+                        <li><a class="btn-style" href="/about">ABOUT</a></li>    
+                        <li><a class="btn-style" href="/">STORE</a></li>
+                        <li><a class="btn-style" href="/">PERSPECTIVES</a></li>
+                        <li><a class="btn-style" href="/">SUPPORT</a></li>
+                        <li><a class="btn-style" href="/">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+        <div class="jumbotron"> </div>
+        <div class="jumbotron"> </div>
+        <div class="jumbotron"> </div>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Thank you for caring</h1>
+                <p>Presto daycare is a digital toolbox that streamlines the daily child care work flow.</p>
+                <a class="btn btn-lg btn-default" href="#section1" role="button">Explore Presto!</a>
+            </div>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        </div>
+        <div class="container-full">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 pic">
+                        <img class="pic" src="{{ url_for('static', filename='simplicity.png') }}" alt="screen">               
+                        <h2>Simplicity</h2>
+                    </div>
+                    <div class="col-md-4 pic">
+                        <img class="pic" src="{{ url_for('static', filename='communication.png') }}" alt="screen">
+                        <h2>Communication</h2>
+                    </div>
+                    <div class="col-md-4 pic">
+                        <img class="pic" src="{{ url_for('static', filename='efficiency.png') }}" alt="screen">
+                        <h2>Efficiency</h2>
+                    </div >
+                </div>
+            </div>
+        </div>
+        <div class="container-full1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 icons">
+                        <img class="icons" src="{{ url_for('static', filename='iconen1.png') }}" alt="screen">                  
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+                    </div>
+                    <div class="col-md-4 icons">
+                        <img class="icons" src="{{ url_for('static', filename='iconen2.png') }}" alt="screen">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+                    </div>
+                    <div class="col-md-4 icons">
+                        <img class="icons" src="{{ url_for('static', filename='iconen3.png') }}" alt="screen">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+                    </div >
+                </div>
+                <div class="row">
+                    <div class="col-md-4 icons">
+                        <img class="icons" src="{{ url_for('static', filename='iconen4.png') }}" alt="screen">                  
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+                    </div>
+                    <div class="col-md-4 icons">
+                        <img class="icons" src="{{ url_for('static', filename='iconen5.png') }}" alt="screen">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+                    </div>
+                    <div class="col-md-4 icons">
+                        <img class="icons" src="{{ url_for('static', filename='iconen6.png') }}" alt="screen">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.</p>
+                            <a name="section1"></a>
+                    </div >
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>info@prestodaycare.com</p>
+            <img class="icons" src="{{ url_for('static', filename='telefon.png') }}" alt="screen" height="50" width="50"><p>Tel: +46 (0)40-6928110, CET office hours</p>
+            <br>
+        </footer>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
