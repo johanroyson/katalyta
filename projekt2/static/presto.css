@@ -58,17 +58,18 @@ img.pic {
 	border: none;
 	border-radius: none;
 	width:100%; 
-	height:60px;
+	height:100px;
 	position: fixed;
 }
 
 .navbar-brand {
-	font-size: 80px;
+	font-size: 90px;
 	font-family: presto;
+	padding: 35px;
 }
 .navbar-brand img{
-	height:45px;
-	margin-top:-5px;
+	height:55px;
+	margin-top:-30px;
 	padding: 0px 20px 5px 5px;
 
 }
@@ -76,7 +77,7 @@ img.pic {
 .navbar ul{
 	list-style:none; 
 	margin:0; 
-	padding:5px;
+	padding:25px;
 }
 .navbar ul li{
 	 margin:0; 
