@@ -176,10 +176,11 @@ footer {
 	padding-top: 20px;
 	height: 300px;
 
+
 }
 
 footer p{
-	/*text-align: right;*/
+	text-align: center;
 	padding-right: 20px;
 	padding-top: 10px;
 	font-weight: bold;

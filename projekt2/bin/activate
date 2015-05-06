@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/fresh_musti/projekt2"
+VIRTUAL_ENV="/Users/fresh_musti/katalyta/projekt2"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
