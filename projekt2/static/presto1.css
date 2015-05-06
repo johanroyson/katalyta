@@ -1,0 +1,128 @@
+@font-face {
+font-family: presto;
+src: url(Jellyka_Estrya_Handwriting.ttf);
+}
+
+@font-face {
+font-family: code;
+src: url(code.otf);
+}
+
+body,
+html {
+	min-height: 100%;
+	background: url(77.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.logo-header{
+	text-align: center;
+	color: white;
+}
+.fader{
+	display: none;
+	background-color: white;
+	width:100%; 
+	height:60px;
+}
+.navbar {
+	background-color: rgba(255,255,255, 0.7);
+	border: none;
+	border-radius: none;
+	width:100%; 
+	height:60px;
+	position: fixed;
+}
+
+.navbar-brand {
+	font-size: 80px;
+	font-family: presto;
+}
+.navbar-brand img{
+	height:45px;
+	margin-top:-5px;
+	padding: 0px 20px 5px 5px;
+
+}
+
+.navbar ul{
+	list-style:none; 
+	margin:0; 
+	padding:5px;
+}
+.navbar ul li{
+	 margin:0; 
+	 padding:0; 
+	 display:inline;
+}
+.navbar a{
+	color: red;
+}
+
+.btn-style {
+	color: black;
+	font-size: 18px;
+}
+
+
+footer {
+	background-color: rgba(255,255,255, 0.95);
+	border-top-style: solid;
+	border-top-color: #808080;
+	border-top-width: 2px;
+	padding-top: 20px;
+}
+
+footer p{
+	text-align: right;
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+
+
+.jumbotron {
+	background: none;
+}
+
+
+.row {
+	background-color: rgba(255,255,255, 0.5);
+}
+
+.col-md-6 img{
+	margin-top: 50px;
+
+}
+
+.col-md-6 p {
+	text-align: left;
+	max-width: 100%;
+
+}
+
+#pic {
+	max-height: 100px;
+	margin-left: 30px;
+}
+
+
+#pic {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#pic:hover {
+    -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+     transform:scale(%);
+}
