@@ -126,9 +126,9 @@ footer p{
 }
 
 #pic:hover {
-    -webkit-transform:scale(5); /* Safari and Chrome */
-    -moz-transform:scale(5); /* Firefox */
-    -ms-transform:scale(5); /* IE 9 */
-    -o-transform:scale(5); /* Opera */
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
      transform:scale(%);
 }
